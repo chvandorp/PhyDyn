@@ -6,5 +6,6 @@
 /build-lib/
 /build-beast/
 /build-test/
+.claude
 *~
 
