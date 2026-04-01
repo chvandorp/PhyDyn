@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ant clean build 2>&1 | tail -30)",
+      "Bash(ant clean build 2>&1 | grep -i \"phydyn/covariate/distribution\")",
+      "Bash(JAVA_HOME=\"$HOME/Library/Java/JavaVirtualMachines/zulu-17-fx.jdk/Contents/Home\" PATH=\"$HOME/Library/Java/JavaVirtualMachines/zulu-17-fx.jdk/Contents/Home/bin:$PATH\" ant clean build 2>&1 | tail -20)",
+      "Bash(which ant 2>/dev/null || brew --prefix ant 2>/dev/null || echo \"ant not in PATH\")",
+      "Bash(JAVA_HOME=\"$HOME/Library/Java/JavaVirtualMachines/zulu-17-fx.jdk/Contents/Home\" PATH=\"$HOME/Library/Java/JavaVirtualMachines/zulu-17-fx.jdk/Contents/Home/bin:/usr/local/bin:$PATH\" ant clean build 2>&1 | tail -20)",
+      "Bash(export JAVA_HOME=\"$HOME/Library/Java/JavaVirtualMachines/zulu-17-fx.jdk/Contents/Home\" && export PATH=\"$JAVA_HOME/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH\" && ant clean build 2>&1 | tail -20)",
+      "Bash($HOME/Library/Java/JavaVirtualMachines/zulu-17-fx.jdk/Contents/Home/bin/java -version 2>&1)",
+      "Bash(bash scripts/build_install_phydyn.sh --skip-tests 2>&1 | tail -30)"
+    ]
+  }
+}

@@ -188,5 +188,4 @@ public class PMStackMachine {
 			return 0;
 		}
 	}
-
 }

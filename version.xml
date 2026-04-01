@@ -16,6 +16,15 @@
         <provider classname="phydyn.covariate.SeroprevalenceLikelihood"/>
         <provider classname="phydyn.covariate.TrajectoryFit"/>
         <provider classname="phydyn.covariate.distribution.Normal"/>
+        <provider classname="phydyn.covariate.distribution.GammaDist"/>
+        <provider classname="phydyn.covariate.distribution.ExponentialDist"/>
+        <provider classname="phydyn.covariate.distribution.PoissonDist"/>
+        <provider classname="phydyn.covariate.distribution.NegativeBinomial"/>
+        <provider classname="phydyn.covariate.distribution.NegativeBinomialMD"/>
+        <provider classname="phydyn.covariate.distribution.BinomialDist"/>
+        <provider classname="phydyn.covariate.distribution.Bernoulli"/>
+        <provider classname="phydyn.covariate.distribution.LogNormalDist"/>
+        <provider classname="phydyn.covariate.distribution.BetaDist"/>
         <provider classname="phydyn.covariate.distribution.ParamDistribution"/>
         <provider classname="phydyn.evolution.speciation.MyTreePrior"/>
         <provider classname="phydyn.evolution.tree.coalescent.STreeIntervals"/>
